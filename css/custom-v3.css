@@ -1,0 +1,108 @@
+/* General */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyCMIT5lu.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ITw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+body {
+font-family: "Raleway","Verdana","Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 1rem;
+line-height: 1.5;
+}
+h1, h2, h3, h4, h5{
+font-family: "Raleway","Verdana","Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* Table */
+span.ew-table-header-caption, table.ew-vertical td {
+  font-size: 1.2em;
+  padding: 1em;
+  margin: 1em;
+}
+.content-header h1,
+span.ew-table-header-caption, 
+table.ew-vertical td,
+.kt-subheader,
+.breadcrumb-item,
+td .btn.btn-default,
+.col-form-label {
+  text-transform: capitalize;
+}
+.ew-grid {
+width: 100%;
+}
+.ew-table > tbody > tr > td, .ew-grid .ew-table > tfoot > tr > td{
+text-align: center;
+padding: 0.6em;  
+}
+tr.ew-table-select-row  >  td {
+background-color: #0080FF;
+color: #fff;
+}
+.ew-grid .ew-table > thead > tr > th, 
+.ew-grid .ew-table > thead > tr > td {
+  background-color: #394653;
+  color: #fff;
+  font-size: 1em;
+  padding: 1em;
+  border-color: transparent;
+  text-transform: capitalize;
+  text-align: center;  
+}
+.ew-table .ew-table-select-row > td .btn-default {
+background-color: #333;
+color: #fff;
+}
+tr.ew-table-highlight-row > td {
+  color: #333 !important;
+  }
+
+/* Button */
+.btn-sm, .btn-group-sm > .btn {
+  padding: .25rem .5rem;
+  font-size: .76563rem;
+  line-height: 1.5;
+  border-radius: inherit;
+}
+td .btn.btn-default {
+  border: 1px solid #999;
+  color: #ccc;
+  background: #222;
+}
+td .btn.btn-default:hover {
+  color: #333 !important;
+  background: #fff !important;
+}
+
+/* Side Bar */
+
+span.menu-item-text, span.kt-menu__link-text,
+.sidebar .nav-link p, .sidebar .user-panel .info {
+  text-transform: capitalize !important;
+}
+
+.sidebar {
+background-color: #343a40;
+}
+
+ul.nav.nav-treeview {
+  background-color: #394653 !important;
+}
+.nav-sidebar .nav-item>.nav-link {
+  margin-bottom: inherit;
+}
+.nav-pills .nav-link, ul.nav.nav-treeview {
+  border-radius: 0px;
+}
+.os-content {
+  padding: 0px !important;
+}

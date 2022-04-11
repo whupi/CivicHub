@@ -1,0 +1,11 @@
+{
+    "name": "civichub2",
+    "version": "18.11.0",
+    "description": "civichub2",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "private": true,
+    "dependencies": {},
+    "engines": {
+        "node": ">=16"
+    }
+}
