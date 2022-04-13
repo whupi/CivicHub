@@ -24,9 +24,11 @@ Being able to put a team together at the last minute and being able to deliver a
 
 ## What we learned
 
+It is very difficult to build sustainable businessess models for NGO's in the Pacific due to funding constraints
+
 ## What's next for CivicHub
 
 2 things
 
 1. We'd like to do integrate CivicHub with Flarum, the open source forum system to handle discussions around the submissions that are made.
-2. We'd like to expand the system to create a citizen engagement platform that helps coordinate and amplify the voices of citizens directly.
+2. We'd like to expand the system to create a citizen engagement platform that helps coordinate and amplify the voices of citizens directly. THis may increase the probability for creating a more sustainable bussiness model for the platform.
